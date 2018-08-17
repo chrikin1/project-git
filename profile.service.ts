@@ -4,5 +4,13 @@ export class ProfileService {
 
 @Injectable()
 export class ProfileService {
-  constructor() { }
+
+  private username:string;
+  private client id = string;
+  private clientsecret = 
+
+  constructor() {privatw http:Http) {
+
+  }
+
 }
