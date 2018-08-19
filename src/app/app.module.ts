@@ -12,8 +12,10 @@ import { LinkComponent } from './link/link.component';
   ],
   imports: [
     BrowserModule
+    HttpModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
