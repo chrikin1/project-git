@@ -1,5 +1,7 @@
 import { HttpModule } from '@angular/http';
-import { ApiService } from './api-http/api.service';
+// import { ApiService } from './api-http/api.service';
+import { NgModule } '@angular/core';
+import {ProfileComponent} from './components/profile/profile.component';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
@@ -11,7 +13,7 @@ import { LinkComponent } from './link/link.component';
     ProfileComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     HttpModule,
     FormsModule
   ],
