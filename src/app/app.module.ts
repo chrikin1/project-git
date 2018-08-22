@@ -1,4 +1,4 @@
-import { HttpModule } from '@angular/http';
+import { HttpclientModule } from '@angular/http';
 // import { ApiService } from './api-http/api.service';
 import { NgModule } '@angular/core';
 import {ProfileComponent} from './components/profile/profile.component';
