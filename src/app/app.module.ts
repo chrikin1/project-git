@@ -1,6 +1,6 @@
 import { HttpclientModule } from '@angular/http';
 // import { ApiService } from './api-http/api.service';
-import { NgModule } '@angular/core';
+import { NgModule } from '@angular/core';
 import {ProfileComponent} from './components/profile/profile.component';
 import { FormsModule } from '@angular/forms';
 
