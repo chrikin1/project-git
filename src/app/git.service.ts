@@ -8,7 +8,7 @@ import {environment} from  '../environments/environment'
 export class GitService {
 git:Git;
 constructor(private http: HttpClient) {}
-getgit(f) {
+getgit() {
   interface ApiResponse {
 name: string;
 login: string;
