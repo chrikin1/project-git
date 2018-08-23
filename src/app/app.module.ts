@@ -1,11 +1,11 @@
-import { HttpclientModule } from '@angular/http';
-// import { ApiService } from './api-http/api.service';
+import { HttpModule } from '@angular/http';
+import {HttpClientModule} from '@angular/common/http'
 import { NgModule } from '@angular/core';
 import {ProfileComponent} from './components/profile/profile.component';
 import { FormsModule } from '@angular/forms';
-
+import {BrowserModule}from '@angular/platform-browser'
 import { AppComponent } from './app.component';
-import { LinkComponent } from './link/link.component';
+
 
 @NgModule({
   declarations: [
@@ -14,10 +14,10 @@ import { LinkComponent } from './link/link.component';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
-    FormsModule
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [ApiService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
